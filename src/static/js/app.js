@@ -10,6 +10,9 @@ function App() {
         </Container>
     );
 }
+function header(){
+  document.title = "変更後のタイトル";
+}
 
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
